@@ -1,0 +1,6 @@
+name = "WebService-Slack-RtmApi"
+# badges = ["travis"]
+authority="cpan:MIHYAERU"
+
+module_maker="ModuleBuildTiny"
+
