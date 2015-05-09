@@ -26,14 +26,15 @@ WebService::Slack::RtmApi is ...
 
 =head1 LICENSE
 
-Copyright (C) Mihyaeru.
+Copyright (C) Mihyaeru/mihyaeru21
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+Released under the MIT license.
+
+See C<LICENSE> file.
 
 =head1 AUTHOR
 
-Mihyaeru E<lt>mihyaeru21@gmail.comE<gt>
+Mihyaeru/mihyaeru21 E<lt>mihyaeru21@gmail.comE<gt>
 
 =cut
 
