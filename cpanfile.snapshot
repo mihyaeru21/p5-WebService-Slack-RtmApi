@@ -1,31 +1,31 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
-  B-Hooks-EndOfScope-0.14
-    pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.14.tar.gz
+  B-Hooks-EndOfScope-0.15
+    pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.15.tar.gz
     provides:
-      B::Hooks::EndOfScope 0.14
-      B::Hooks::EndOfScope::PP 0.14
-      B::Hooks::EndOfScope::XS 0.14
+      B::Hooks::EndOfScope 0.15
+      B::Hooks::EndOfScope::PP 0.15
+      B::Hooks::EndOfScope::XS 0.15
     requirements:
       ExtUtils::CBuilder 0.26
       ExtUtils::MakeMaker 0
       Module::Implementation 0.05
-      Module::Runtime 0.012
       Sub::Exporter::Progressive 0.001006
       Variable::Magic 0.48
+      perl 5.008001
       strict 0
       warnings 0
-  CPAN-Meta-2.150001
-    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.150001.tar.gz
+  CPAN-Meta-2.150005
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.150005.tar.gz
     provides:
-      CPAN::Meta 2.150001
-      CPAN::Meta::Converter 2.150001
-      CPAN::Meta::Feature 2.150001
-      CPAN::Meta::History 2.150001
-      CPAN::Meta::Merge 2.150001
-      CPAN::Meta::Prereqs 2.150001
-      CPAN::Meta::Spec 2.150001
-      CPAN::Meta::Validator 2.150001
+      CPAN::Meta 2.150005
+      CPAN::Meta::Converter 2.150005
+      CPAN::Meta::Feature 2.150005
+      CPAN::Meta::History 2.150005
+      CPAN::Meta::Merge 2.150005
+      CPAN::Meta::Prereqs 2.150005
+      CPAN::Meta::Spec 2.150005
+      CPAN::Meta::Validator 2.150005
     requirements:
       CPAN::Meta::Requirements 2.121
       CPAN::Meta::YAML 0.008
@@ -137,10 +137,10 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
-  Encode-Locale-1.04
-    pathname: G/GA/GAAS/Encode-Locale-1.04.tar.gz
+  Encode-Locale-1.05
+    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
     provides:
-      Encode::Locale 1.04
+      Encode::Locale 1.05
     requirements:
       Encode 2
       Encode::Alias 0
@@ -276,17 +276,17 @@ DISTRIBUTIONS
       Encode 2.10
       Exporter 5.57
       ExtUtils::MakeMaker 6.30
-  IO-Socket-SSL-2.014
-    pathname: S/SU/SULLR/IO-Socket-SSL-2.014.tar.gz
+  IO-Socket-SSL-2.016
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.016.tar.gz
     provides:
-      IO::Socket::SSL 2.014
+      IO::Socket::SSL 2.016
       IO::Socket::SSL::Intercept 2.014
-      IO::Socket::SSL::OCSP_Cache 2.014
-      IO::Socket::SSL::OCSP_Resolver 2.014
+      IO::Socket::SSL::OCSP_Cache 2.016
+      IO::Socket::SSL::OCSP_Resolver 2.016
       IO::Socket::SSL::PublicSuffix undef
-      IO::Socket::SSL::SSL_Context 2.014
-      IO::Socket::SSL::SSL_HANDLE 2.014
-      IO::Socket::SSL::Session_Cache 2.014
+      IO::Socket::SSL::SSL_Context 2.016
+      IO::Socket::SSL::SSL_HANDLE 2.016
+      IO::Socket::SSL::Session_Cache 2.016
       IO::Socket::SSL::Utils 2.014
     requirements:
       ExtUtils::MakeMaker 0
@@ -308,28 +308,28 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
-  Module-Build-0.4211
-    pathname: L/LE/LEONT/Module-Build-0.4211.tar.gz
+  Module-Build-0.4214
+    pathname: L/LE/LEONT/Module-Build-0.4214.tar.gz
     provides:
-      Module::Build 0.4211
-      Module::Build::Base 0.4211
-      Module::Build::Compat 0.4211
-      Module::Build::Config 0.4211
-      Module::Build::Cookbook 0.4211
-      Module::Build::Dumper 0.4211
-      Module::Build::Notes 0.4211
-      Module::Build::PPMMaker 0.4211
-      Module::Build::Platform::Default 0.4211
-      Module::Build::Platform::MacOS 0.4211
-      Module::Build::Platform::Unix 0.4211
-      Module::Build::Platform::VMS 0.4211
-      Module::Build::Platform::VOS 0.4211
-      Module::Build::Platform::Windows 0.4211
-      Module::Build::Platform::aix 0.4211
-      Module::Build::Platform::cygwin 0.4211
-      Module::Build::Platform::darwin 0.4211
-      Module::Build::Platform::os2 0.4211
-      Module::Build::PodParser 0.4211
+      Module::Build 0.4214
+      Module::Build::Base 0.4214
+      Module::Build::Compat 0.4214
+      Module::Build::Config 0.4214
+      Module::Build::Cookbook 0.4214
+      Module::Build::Dumper 0.4214
+      Module::Build::Notes 0.4214
+      Module::Build::PPMMaker 0.4214
+      Module::Build::Platform::Default 0.4214
+      Module::Build::Platform::MacOS 0.4214
+      Module::Build::Platform::Unix 0.4214
+      Module::Build::Platform::VMS 0.4214
+      Module::Build::Platform::VOS 0.4214
+      Module::Build::Platform::Windows 0.4214
+      Module::Build::Platform::aix 0.4214
+      Module::Build::Platform::cygwin 0.4214
+      Module::Build::Platform::darwin 0.4214
+      Module::Build::Platform::os2 0.4214
+      Module::Build::PodParser 0.4214
     requirements:
       CPAN::Meta 2.142060
       CPAN::Meta::YAML 0.003
@@ -466,10 +466,10 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test 0
       perl 5.006
-  Net-SSLeay-1.68
-    pathname: M/MI/MIKEM/Net-SSLeay-1.68.tar.gz
+  Net-SSLeay-1.69
+    pathname: M/MI/MIKEM/Net-SSLeay-1.69.tar.gz
     provides:
-      Net::SSLeay 1.68
+      Net::SSLeay 1.69
       Net::SSLeay::Handle 0.61
     requirements:
       ExtUtils::MakeMaker 6.36
@@ -682,10 +682,10 @@ DISTRIBUTIONS
       base 0
       lib 0
       perl 5.008
-  WebService-Slack-WebApi-0.03
-    pathname: M/MI/MIHYAERU/WebService-Slack-WebApi-0.03.tar.gz
+  WebService-Slack-WebApi-0.04
+    pathname: M/MI/MIHYAERU/WebService-Slack-WebApi-0.04.tar.gz
     provides:
-      WebService::Slack::WebApi 0.03
+      WebService::Slack::WebApi 0.04
       WebService::Slack::WebApi::Api undef
       WebService::Slack::WebApi::Auth undef
       WebService::Slack::WebApi::Base undef
@@ -703,6 +703,7 @@ DISTRIBUTIONS
       WebService::Slack::WebApi::Rtm undef
       WebService::Slack::WebApi::Search undef
       WebService::Slack::WebApi::Stars undef
+      WebService::Slack::WebApi::Team undef
       WebService::Slack::WebApi::Users undef
     requirements:
       Class::Accessor::Lite 0
