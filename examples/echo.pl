@@ -28,5 +28,5 @@ for my $i (1..300) {
     $slack->ping if $i % 30 == 0;
     sleep 1;
 }
-$slack->client->disconnect;
+$slack->disconnect;
 
